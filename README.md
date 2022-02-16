@@ -8,3 +8,6 @@ This is my first git Project. It consists of 3 different python codes. used on R
 
 To implement the project, several libraries needs to be install on the raspberryPi.
 to be continued.....
+
+
+FUCKYOUPRINCESS And ILOVEYOU
