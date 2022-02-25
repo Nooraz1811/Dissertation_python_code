@@ -12,8 +12,8 @@ blue.on()
 camera = PiCamera()
 
 def PlateRecognition():
-    access_key_id = 'AKIARD2ZDU2CVNGZUT7T'
-    secret_access_key = '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'
+    access_key_id = 'AKIARD2ZDU2CVNGZU***'
+    secret_access_key = 'A26yFHfvehxm08SPkZI42xPFoxXbfYE25wev****'
 
     photo = ('/home/pi/Desktop/work/plateNum1.jpg')
     client = boto3.client('rekognition', aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key,region_name='us-west-2')
@@ -51,7 +51,7 @@ def PlateRecognition():
     else:
         os.system('echo "Am sorry, your plate number does not match, please contact MR AYAAZ for access." |festival --tts')
         smtpUser = 'raspberrypi7786@gmail.com'
-        smtpPass = '8209257+A'
+        smtpPass = '8209257**'
         toAdd = 'ayazrom14@gmail.com'
         fromAdd = smtpUser
         subject = 'IMPORTANT MESSAGE FROM RASPBERRYPI4'
