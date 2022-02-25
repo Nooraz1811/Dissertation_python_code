@@ -31,7 +31,7 @@ def FaceRecognition():
         os.system('echo "Am sorry, your face does not match, please contact MR AYAAZ for access" |festival --tts')
         print("Face does not match!")
         smtpUser = 'raspberrypi7786@gmail.com'
-        smtpPass = '8209257+A'
+        smtpPass = '820925***'
 
         toAdd = 'ayazrom14@gmail.com'
         fromAdd = smtpUser
